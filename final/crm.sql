@@ -19,6 +19,7 @@ CREATE TABLE contacts (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   first_name TEXT,
   last_name TEXT,
+  title TEXT,
   email TEXT,
   phone_number TEXT,
   company_id INTEGER
